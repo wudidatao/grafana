@@ -7,14 +7,6 @@
       "type": "datasource",
       "pluginId": "alexanderzobnin-zabbix-datasource",
       "pluginName": "Zabbix"
-    },
-    {
-      "name": "DS_ZABBIX_API",
-      "label": "zabbix_api",
-      "description": "",
-      "type": "datasource",
-      "pluginId": "alexanderzobnin-zabbix-datasource",
-      "pluginName": "Zabbix"
     }
   ],
   "__requires": [
@@ -9267,7 +9259,7 @@
       {
         "allValue": null,
         "current": {},
-        "datasource": "${DS_ZABBIX_API}",
+        "datasource": "${DS_ZABBIX_API_TEST}",
         "hide": 0,
         "includeAll": true,
         "label": "group",
@@ -9287,7 +9279,7 @@
       {
         "allValue": null,
         "current": {},
-        "datasource": "${DS_ZABBIX_API}",
+        "datasource": "${DS_ZABBIX_API_TEST}",
         "hide": 0,
         "includeAll": true,
         "label": "host",
@@ -9307,7 +9299,7 @@
       {
         "allValue": null,
         "current": {},
-        "datasource": "${DS_ZABBIX_API}",
+        "datasource": "${DS_ZABBIX_API_TEST}",
         "hide": 0,
         "includeAll": true,
         "label": "int",
