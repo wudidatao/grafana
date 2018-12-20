@@ -4,7 +4,7 @@
 path=/root/install
 #软件安装版本
 version=4.6.2
-#redis安装目录
+#grafana安装目录
 grafana_path=$path/grafana-$version
 #本地ip
 random_ip=`ip address | egrep "global e|global dynamic e"| cut -d ' ' -f6 | cut -d '/' -f1`
